@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -71,11 +71,16 @@ footer {
   justify-content: space-evenly;
 }
 
+.card:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
 .card {
   border-style: solid;
-  border-width: 1px;
+  border-width: 6px;
   padding: 10px;
-  flex: 0 0 300px;
+  flex: .25 0 300px;
   box-shadow: 10px 10px 5px #000000;
   margin: 20px;
 }
